@@ -8,7 +8,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "${project}-${environment}",
+          "awslogs-group": "${project}-${environment}-logs",
           "awslogs-region": "${region}",
           "awslogs-stream-prefix": "${project}"
         }
