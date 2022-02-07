@@ -1,5 +1,9 @@
 # Usage
 
+## dev.env file
+
+Replace this values with yours.6
+
 ## Create an s3 bucket and dynamodb table for store state and lock.
 
 RUN:
