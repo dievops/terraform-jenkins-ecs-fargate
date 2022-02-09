@@ -3,7 +3,7 @@
       "name": "${name}",
       "image": "${image}",
       "cpu": 0,
-      "memoryReservation": 1024,
+      "memoryReservation": ${memoryReservation},
       "essential": true,
       "logConfiguration": {
         "logDriver": "awslogs",

@@ -28,6 +28,7 @@ data "template_file" "jenkins_container_definition" {
         project = var.project
         environment = var.environment
         region = var.region
+        memoryReservation = var.container_memory
     }
 }
 
